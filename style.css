@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
+body {
+    background-color: #181818;
+    margin: 0px;
+}
+
+html {
+    margin: 0px;
+}
+
+
+.header {
+    transition: 500ms;
+    font-family: 'Baloo Chettan 2', cursive;
+    text-align: center;
+    padding: 10px 16px;
+    background: rgb(17, 17, 17);
+    color: #ffffff;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    text-align: center;
+    transition: 500ms;
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  .sticky + .content {
+    transition: 500ms;
+    padding-top: 102px;
+  }
+
+  .dog-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 5vh;
+  }
