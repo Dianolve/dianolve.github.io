@@ -69,4 +69,3 @@ function renderItem(){
     console.log('Fetch Error :-S', err);
   });
 }
-  
